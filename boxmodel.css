@@ -1,0 +1,115 @@
+body{
+    background-color:whitesmoke;
+}
+.box-1{
+    background-color: black;
+    border: 5px solid red;
+    color: white;
+    border-width: 3px;
+    padding: 30px;
+    margin: 20px 0;
+}
+.container{
+    /* margin: auto;
+    width: 600px; */
+    width: 700px;
+    margin: auto;
+}
+.button{
+    background-color: #333;
+    color: #fff;
+    box-direction: none;
+    padding: 10px 15px;
+}
+.button:hover{
+    background: red;
+    color: white;
+}
+
+.box-1 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800px;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform:lowercase;
+    letter-spacing: 0.2em;
+    /* word-spacing: 1em; */
+}
+.box-2{
+    border: 2px dotted;
+    margin: 20px;
+    padding: 40px;
+}
+
+.categories{
+    border: 1px #ccc solid;
+    border-radius: 15px;
+    padding: 10px;
+}
+.categories ul{
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none; 
+    color: black;  
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color:green;
+}
+/* a.visited{
+    color:black;
+} */
+
+.categories li{
+    padding:6px;
+    border-bottom:dotted 1px #333;
+}
+
+.form{
+    padding: 20px;
+}
+.form .form-group{
+    padding-bottom: 20px;
+    /* border:dotted #ccc 1px; */
+
+}
+
+.form label{
+    display: block;
+
+}
+.form input[type="text"],textarea{
+    width:100%;
+    padding: 8px;
+}
+.form input[type="button"]{
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+
+}
+ .block{
+
+    float: left;
+    width:33%;
+    border:1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+} 
+#main-block{
+    float: left;
+    width: 70%;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
